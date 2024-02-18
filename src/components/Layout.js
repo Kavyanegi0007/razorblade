@@ -4,7 +4,7 @@ import xLogo from "../images/x.png"; // Import image for logo
 import razorpay from "../images/razorpay.png"; // Import image for logo
 import payouts from "../images/payouts_icon.png"; // Import image for logo
 
-import { Box, Heading, Text } from "@razorpay/blade/components";
+import { Box, Text } from "@razorpay/blade/components";
 
 const Layout = ({ children }) => {
   return (
@@ -185,7 +185,7 @@ const Layout = ({ children }) => {
         <Box>
         <nav class="navbar navbar-expand-lg  text-white">
   <div class="container-fluid">
-    <a class="navbar-brand  text-white" href="#">Payouts /</a>
+    <a class="navbar-brand  text-white" href="/">Payouts /</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -193,16 +193,16 @@ const Layout = ({ children }) => {
       <ul class="navbar-nav">
         
         <li class="nav-item">
-          <a class="nav-link active mx-2" href="#">Single</a>
+          <a class="nav-link active mx-2" href="/">Single</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Bulk</a>
+          <a class="nav-link mx-2" href="/">Bulk</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Tally</a>
+          <a class="nav-link mx-2" href="/">Tally</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#">Payout Links</a>
+          <a class="nav-link mx-2" href="/">Payout Links</a>
         </li>
       </ul>
     </div>

@@ -1,6 +1,6 @@
 import {
   Table,
-  Heading,
+  
   Box,
   TableHeader,
   TableHeaderRow,

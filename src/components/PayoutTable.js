@@ -19,15 +19,6 @@ import {
 import "./Payouts.css"; // Import CSS for styling
 import React from "react";
 
-function randomString(length) {
-  const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZ";
-  let randomstring = "";
-  for (let i = 0; i < length; i++) {
-    const rnum = Math.floor(Math.random() * chars.length);
-    randomstring += chars.substring(rnum, rnum + 1);
-  }
-  return randomstring;
-}
 
 const rows = [
   ...Array.from({ length: 20 }, (_, i) => ({
